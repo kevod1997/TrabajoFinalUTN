@@ -1,4 +1,7 @@
-.row{
+@import "footer.css";
+@import "header.css";
+
+.rowCards{
     margin: 50px;
     text-align: center;
     

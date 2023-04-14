@@ -1,7 +1,7 @@
 @import "portada.css";
-@import "main.css";
 @import "footer.css";
-@import "nicolas.css";
+@import "header.css";
+
 
 * {
     margin: 0;
