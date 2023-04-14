@@ -15,25 +15,13 @@
     margin-bottom: -10px;
   }
 
-  /* .card .view img {
-    height: 200px; /* Ajusta este valor según tus necesidades 
-    object-fit: cover;
-  } */
-  
   .card .view img {
     width: 100%;
-    height: 200px; /* Ajusta este valor según tus necesidades */
+    height: 200px; 
     object-fit: fill;
   }
 
   .card .card-body {
-    min-height: 340px; /* Ajusta este valor según tus necesidades */
+    min-height: 340px; 
   }
 
-
-  /*-----------------------*/
-
-  .mainHome{
-    flex: 75%;
-    padding: 10px;
-    }
