@@ -39,6 +39,7 @@ $(document).ready(function () {
     // Capturar datos
     const fecha = $("#fecha").val();
     const direccion = $("#direccion").val();
+    const piso = $("#piso").val();
     const paqueteSeleccionado = JSON.parse($("#paquete").val());
     const fotos = paqueteSeleccionado.fotos;
     const precioPaquete = paqueteSeleccionado.precio;
@@ -62,7 +63,7 @@ $(document).ready(function () {
     const fechaFormateada = formatearFecha(fecha);
     const ticket = {
       Fecha: fechaFormateada,
-      Direccion: direccion,
+      Direccion: direccion + " "+ piso,
       Fotos: fotos,
       Servicio: servicio,
       Costo: costoTotal.toFixed(2),
@@ -91,7 +92,7 @@ $(document).ready(function () {
     // console.log(ticket);
 
     alert(
-      `Has generado un ticket con los siguientes datos: \n Fecha: ${fechaFormateada} \n Dirección: ${direccion} \n Fotos: ${fotos} \n Servicio: ${servicio} \n Costo total: $${costoTotal.toFixed(
+      `Has generado un ticket con los siguientes datos: \n Fecha: ${fechaFormateada} \n Dirección: ${direccion+ " "+ piso} \n Fotos: ${fotos} \n Servicio: ${servicio} \n Costo total: $${costoTotal.toFixed(
         2
       )}`
     );

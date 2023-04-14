@@ -56,76 +56,87 @@
       </nav>
     </header>
 
-    <div class="container mb-3 mt-3">
-      <div class="row justify-content-center">
-        <h2 class="text-center border-bottom border-1 mb-3 mt-5">
-          ADQUIRI NUESTROS SERVICIOS
-        </h2>
-        <div class="col-12 col-md-8 mb-5 mt-5">
-          <div class="card border-dark mt-1">
-            <div class="card-body">
-              <form id="formulario-fotografia">
-                <div class="form-group">
-                  <label for="fecha">Fecha y hora:</label>
-                  <input
-                    type="datetime-local"
-                    id="fecha"
-                    class="form-control"
-                    required
-                  />
-                </div>
-
-                <div class="form-group">
-                  <label for="direccion">Dirección:</label>
-                  <input
-                    type="text"
-                    id="direccion"
-                    class="form-control"
-                    required
-                  />
-                </div>
-
-                <div class="form-group">
-                  <label for="paquete">Paquete de fotos:</label>
-                  <select id="paquete" class="form-control" required>
-                    <option value='{"fotos": 30, "precio": 4000}'>
-                      30 fotos - $4000
-                    </option>
-                    <option value='{"fotos": 50, "precio": 6000}'>
-                      50 fotos - $6000
-                    </option>
-                    <option value='{"fotos": 70, "precio": 7500}'>
-                      70 fotos - $7500
-                    </option>
-                    <option value='{"fotos": 100, "precio": 9000}'>
-                      100 fotos - $9000
-                    </option>
-                    <option value='{"fotos": 150, "precio": 12000}'>
-                      150 fotos - $12000
-                    </option>
-                  </select>
-                </div>
-
-                <div class="form-group">
-                  <label for="servicio">Servicio:</label>
-                  <select id="servicio" class="form-control" required>
-                    <option value="Casamiento">Casamiento</option>
-                    <option value="Comunion">Comunión</option>
-                    <option value="Bautismo">Bautismo</option>
-                    <option value="Evento">Evento</option>
-                    <option value="Fiesta">Fiesta</option>
-                    <option value="Sesion">Sesión</option>
-                  </select>
-                </div>
-                <div class="d-flex justify-content-center mt-3">
-                  <button type="submit" class="btn btn-primary">Enviar</button>
-                </div>
-              </form>
+    <main>
+      <div class="container pb-3 pt-3">
+        <div class="row justify-content-center">
+          <h2 class="text-center border-bottom border-1 mb-3 pt-5 text-white">
+            ADQUIRI NUESTROS SERVICIOS
+          </h2>
+          <div class="col-12 col-md-8 mb-5 mt-5">
+            <div class="card border-dark mt-1">
+              <div class="card-body">
+                <form id="formulario-fotografia">
+                  <div class="form-group">
+                    <label for="fecha">Fecha y hora:</label>
+                    <input
+                      type="datetime-local"
+                      id="fecha"
+                      class="form-control"
+                      required
+                    />
+                  </div>
+  
+                  <div class="form-group">
+                    <label for="direccion">Dirección:</label>
+                    <input
+                      type="text"
+                      id="direccion"
+                      class="form-control"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="direccion">Piso y numero:</label>
+                    <input
+                      type="text"
+                      id="piso"
+                      class="form-control"
+                      required
+                    />
+                  </div>
+  
+                  <div class="form-group">
+                    <label for="paquete">Paquete de fotos:</label>
+                    <select id="paquete" class="form-control" required>
+                      <option value='{"fotos": 30, "precio": 4000}'>
+                        30 fotos - $4000
+                      </option>
+                      <option value='{"fotos": 50, "precio": 6000}'>
+                        50 fotos - $6000
+                      </option>
+                      <option value='{"fotos": 70, "precio": 7500}'>
+                        70 fotos - $7500
+                      </option>
+                      <option value='{"fotos": 100, "precio": 9000}'>
+                        100 fotos - $9000
+                      </option>
+                      <option value='{"fotos": 150, "precio": 12000}'>
+                        150 fotos - $12000
+                      </option>
+                    </select>
+                  </div>
+  
+                  <div class="form-group">
+                    <label for="servicio">Servicio:</label>
+                    <select id="servicio" class="form-control" required>
+                      <option value="Casamiento">Casamiento</option>
+                      <option value="Comunion">Comunión</option>
+                      <option value="Bautismo">Bautismo</option>
+                      <option value="Evento">Evento</option>
+                      <option value="Fiesta">Fiesta</option>
+                      <option value="Sesion">Sesión</option>
+                    </select>
+                  </div>
+                  <div class="d-flex justify-content-center mt-3">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </div>
+                </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </main>
     <footer class="footer">
       <div class="containerFooter">
         <div>
