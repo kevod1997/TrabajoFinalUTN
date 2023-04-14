@@ -1,5 +1,17 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family:'Poppins', sans-serif;
+} */
+
+
 /* header{
-    position: fixed;
+    position:static;
     width: 100%;
     top: 0;
     right: 0;
@@ -12,9 +24,11 @@
     padding: 15px 10%;
     transition: 0.2s;
 }
+
 .navbar{
     display: flex;
 }
+
 .navbar a{
     font-size: 1rem;
     padding: 11px 20px;
@@ -31,6 +45,7 @@
     z-index: 1001;
     display: none;
 }
+
 @media (max-width: 768px) {
     nav {
         padding: 11px 4%;
